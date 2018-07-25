@@ -6,7 +6,7 @@
                 Welcome
             </div>
 
-            <a href='{{ route('searchFriends', ['id' => 1]) }}' class="info-btn pointer">Find Friends</a>
+            <a href='{{ route('searchFriends', ['id' => 1]) }}' class="info-btn pointer block-center">Find Friends</a>
         </div>
     </div>
 @include('components.header', ['head' => [ 'title' => 'Find Friends' ]])
