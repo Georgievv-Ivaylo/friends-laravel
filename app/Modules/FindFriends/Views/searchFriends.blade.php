@@ -41,4 +41,4 @@
 			</div>
         </div>
     </div>
-@include('components.header', ['head' => [ 'title' => 'Find Friends' ]])
+@include('components.footer')
